@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    text-transform: capitalize;
+    color: rgb(66, 66, 66);;
+    text-align: center;
+    padding: 2em;
+    padding-bottom: 1em;
+}
+
+#main{
+    margin: auto;
+    width: 700px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 3px 4px 8px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#score{
+    color:rgba(0,0,0,0.6);
+    padding:1em;
+}
+
+#color{
+    width: 300px;
+    height: 50px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 1em;
+    color:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 3px 4px 8px rgba(0,0,0,0.2);
+}
+
+#colors{
+    display: flex;
+    width: 316px;
+    height: 150px;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-bottom: 2em;
+}
+
+.color-tile{
+    width: 150px;
+    height: 60px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 3px 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.color-tile:hover{
+    width: 160px;
+    height: 70px;
+}
+
+.color-tile:nth-child(odd) {
+    margin-right: 4px;
+}
+
+.btn{
+    background: none;
+    padding: 8px 16px;
+    border: 1px solid rgb(3, 113, 216);
+    color:rgb(3, 113, 216);
+    border-radius: 13px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(3, 113, 216);
+    color:#fff;
+}
